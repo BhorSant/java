@@ -42,24 +42,34 @@ class Hello
 
 
         // Operator
-        int a = 10;
-        int b = 20;
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
-        System.out.println(a % b);
-        System.out.println(a++);
-        System.out.println(a--);
-        System.out.println(++a);
-        System.out.println(--a);
-        System.out.println(a++);
-        System.out.println(a--);
-        System.out.println(++a);
-        System.out.println(--a);
-        System.out.println(a++);
-        System.out.println(a--);
-        System.out.println(++a);
+        // int a = 10;
+        // int b = 20;
+        // System.out.println(a + b);
+        // System.out.println(a - b);
+        // System.out.println(a * b);
+        // System.out.println(a / b);
+        // System.out.println(a % b);
+        // System.out.println(a++);
+        // System.out.println(a--);
+        // System.out.println(++a);
+        // System.out.println(--a);
+        // System.out.println(a++);
+        // System.out.println(a--);
+        // System.out.println(++a);
+        // System.out.println(--a);
+        // System.out.println(a++);
+        // System.out.println(a--);
+        // System.out.println(++a);
+
+
+        int num1 =7;
+        num1 +=1;
+        System.out.println(num1);
+
+        num1--;
+        System.out.println(num1);
+        int result = num1++;
+        System.out.println(result);
     }
 
 }
